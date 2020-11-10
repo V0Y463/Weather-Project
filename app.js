@@ -43,6 +43,7 @@ app.post("/", function(req, res){
           res.write("<h3>Wind Degree = " + windDeg + "</h3>");
           res.write("<h2>The weather is currenly " + description + "</h2>");
           res.write("<img src=" + imageURL + ">");
+          res.write("<p>&#169 Mahim</p>");
           res.send();
 
           if(response.statusCode !== 200){
