@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o- background-size: cover;
+    
+}
+/* body{
+    background: url("image/n1.jpg") no-repeat center fixed;
+    background-size: cover;
+    -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o- background-size: cover; 
+} */
+
+.input{
+    text-align: center;
+    margin: 300px 0;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family: "Nunito",sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: #0968f7;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
